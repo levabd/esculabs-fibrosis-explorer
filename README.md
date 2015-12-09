@@ -1,1 +1,1 @@
-# esculabs-fibrosis-viewer
+# Esculabs fibrosis research app
