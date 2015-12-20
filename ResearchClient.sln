@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibroscanProcessor", "FibroscanProcessor\FibroscanProcessor.csproj", "{56299F06-7B5A-400D-A41F-A93A956A09F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eklekto", "Eklekto\Eklekto.csproj", "{EAB1EB1A-E757-4F23-9BEE-FB145A1F7792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalderViewer", "BalderViewer\BalderViewer.csproj", "{9D0E0A8C-1F93-4771-A1DC-5108915890A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56299F06-7B5A-400D-A41F-A93A956A09F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56299F06-7B5A-400D-A41F-A93A956A09F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56299F06-7B5A-400D-A41F-A93A956A09F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56299F06-7B5A-400D-A41F-A93A956A09F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAB1EB1A-E757-4F23-9BEE-FB145A1F7792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB1EB1A-E757-4F23-9BEE-FB145A1F7792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB1EB1A-E757-4F23-9BEE-FB145A1F7792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB1EB1A-E757-4F23-9BEE-FB145A1F7792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0E0A8C-1F93-4771-A1DC-5108915890A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0E0A8C-1F93-4771-A1DC-5108915890A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0E0A8C-1F93-4771-A1DC-5108915890A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0E0A8C-1F93-4771-A1DC-5108915890A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

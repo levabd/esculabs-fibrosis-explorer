@@ -1,0 +1,9 @@
+diff a/FibroscanProcessor/Elasto/ElastoBlob.cs b/FibroscanProcessor/Elasto/ElastoBlob.cs	(rejected hunks)
+@@ -125,7 +125,6 @@
+                     rotationCountDown--;
+ 
+                 if (contour.Points[i].Y > contour.Points[i - 1].Y)
+-                    rotationCountDown = (rotationCountDown < ContourRotationHeihgt) ? rotationCountDown + 1 : ContourRotationHeihgt; //Dump conuter
+                     rotationCountDown = (rotationCountDown < ContourRotationHeihgt) ? rotationCountDown + 1 : ContourRotationHeihgt; //Dump contour
+ 
+                 if (contour.Points[i].Y > Blob.Rectangle.Y + Blob.Rectangle.Height - ContourCromHeight)
