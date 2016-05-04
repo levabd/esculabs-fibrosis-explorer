@@ -10,12 +10,12 @@ namespace Eklekto.Imaging.Blobs
     public static class BlobHelper
     {
         /// <returns>Extract Blobs from image</returns>
-        public static AForge.Imaging.Blob[] ExtractBlobs(this Bitmap image)
+        public static Accord.Imaging.Blob[] ExtractBlobs(this Bitmap image)
         {
             if (image.PixelFormat != PixelFormat.Format8bppIndexed)
                 throw new NotSupportedException("Blob extractor can be applied to binary 8bpp images only");
 
-            AForge.Imaging.BlobCounter bc = new AForge.Imaging.BlobCounter(image);
+            Accord.Imaging.BlobCounter bc = new Accord.Imaging.BlobCounter(image);
 
             return bc.GetObjects(image, true);
         }

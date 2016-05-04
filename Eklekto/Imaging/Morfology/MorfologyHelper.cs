@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Drawing.Imaging;
-using AForge.Imaging.Filters;
+using Accord.Imaging.Filters;
 
 namespace Eklekto.Imaging.Morfology
 {

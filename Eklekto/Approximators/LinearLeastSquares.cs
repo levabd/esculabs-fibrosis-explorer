@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using AForge;
+using Accord;
 using Eklekto.Geometry;
 
 namespace Eklekto.Approximators

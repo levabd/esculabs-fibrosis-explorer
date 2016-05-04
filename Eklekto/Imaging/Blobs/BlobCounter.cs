@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
-using AForge;
-using AForge.Imaging;
+using Accord;
+using Accord.Imaging;
 using Eklekto.Imaging.Contours;
 
 namespace Eklekto.Imaging.Blobs
 {
-    public class BlobCounter: AForge.Imaging.BlobCounter
+    public class BlobCounter: Accord.Imaging.BlobCounter
     {
         #region Constructors
 
@@ -111,7 +111,7 @@ namespace Eklekto.Imaging.Blobs
 
         public Blob[] GetBlobs(Bitmap image, bool extractInOriginalSize)
         {
-            AForge.Imaging.Blob[] blobsResult = GetObjects(image, extractInOriginalSize);
+            Accord.Imaging.Blob[] blobsResult = GetObjects(image, extractInOriginalSize);
             Blob[] newBlobResult = new Blob[blobsResult.Length];
 
             //for (int row = 1; row < image.Height + 1; row++)

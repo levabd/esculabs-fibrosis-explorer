@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
-using AForge.Imaging.Filters;
+using Accord;
+using Accord.Imaging.Filters;
 using Eklekto.Imaging;
-using AForge;
 
 namespace FibroscanProcessor.Ultrasound
 {

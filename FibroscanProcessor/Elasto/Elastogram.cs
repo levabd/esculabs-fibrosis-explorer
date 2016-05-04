@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Drawing;
 using System.Collections.Generic;
-using AForge;
 using Eklekto.Geometry;
 using Eklekto.Imaging;
 using Eklekto.Imaging.Blobs;
 using Point = System.Drawing.Point;
 using System.Threading.Tasks;
-using AForge.Imaging.Filters;
+using Accord;
+using Accord.Imaging.Filters;
 
 namespace FibroscanProcessor.Elasto
 {
@@ -162,7 +162,7 @@ namespace FibroscanProcessor.Elasto
             int maxArea = -1;
             int maxHeight = -1;
             // ReSharper disable PossibleLossOfFraction
-            AForge.Point imageCenter = new AForge.Point(result.Width/2, result.Height/2);
+            Accord.Point imageCenter = new Accord.Point(result.Width/2, result.Height/2);
             int targetObjectIndex = -1; //
 
             for(int i =0; i<objects.Count;i++)
@@ -186,7 +186,7 @@ namespace FibroscanProcessor.Elasto
             {
                 if ((objects[i].Blob.Area >= limitArea) && (objects[i].Blob.Rectangle.Height >= limitHeight))
                 {
-                    AForge.Point objectCenter = objects[i].Blob.CenterOfGravity;
+                    Accord.Point objectCenter = objects[i].Blob.CenterOfGravity;
                     double distToCenter =
                         Math.Sqrt(Math.Pow(objectCenter.X - imageCenter.X, 2) +
                                   Math.Pow(objectCenter.X - imageCenter.X, 2));

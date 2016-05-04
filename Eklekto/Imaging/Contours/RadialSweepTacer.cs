@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Drawing;
-using AForge;
-using AForge.Imaging;
+using Accord;
+using Accord.Imaging;
 
 namespace Eklekto.Imaging.Contours
 {

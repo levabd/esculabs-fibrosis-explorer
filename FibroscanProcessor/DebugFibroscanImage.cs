@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
-using AForge;
-using AForge.Imaging.Filters;
+using Accord;
 using Eklekto.Geometry;
 using Eklekto.Imaging;
 using Eklekto.Imaging.Binarization;

@@ -2,7 +2,6 @@
 using System.Drawing;
 using System.Drawing.Imaging;
 using Accord.Imaging.Filters;
-using AForge.Imaging.Filters;
 
 namespace Eklekto.Imaging.Binarization
 {

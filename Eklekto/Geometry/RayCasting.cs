@@ -4,7 +4,7 @@ This product is licensed under Ms-PL http://www.opensource.org/licenses/MS-PL
 */
 
 using System.Collections.Generic;
-using AForge;
+using Accord;
 
 namespace Eklekto.Geometry
 {

@@ -4,6 +4,8 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Threading.Tasks;
+using Accord;
 using Accord.Imaging;
 using AForge;
 using Eklekto.Geometry;

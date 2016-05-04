@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Drawing.Imaging;
+using Accord;
+using Accord.Imaging;
 using AForge;
 using Eklekto.Geometry;
 using Eklekto.Imaging.Blobs;

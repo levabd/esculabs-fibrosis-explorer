@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace Eklekto.Imaging.Blobs
 {
-    public class Blob: AForge.Imaging.Blob
+    public class Blob: Accord.Imaging.Blob
     {
         private BitArray _object;
 
@@ -48,7 +48,7 @@ namespace Eklekto.Imaging.Blobs
         /// or <see cref="BlobCounterBase.ExtractBlobsImage( UnmanagedImage, Blob, bool )"/> method.</para></remarks>
 #pragma warning restore 1584, 1711, 1572, 1581, 1580
         /// 
-        public Blob(AForge.Imaging.Blob source) : base(source) { }
+        public Blob(Accord.Imaging.Blob source) : base(source) { }
 
         #endregion
 
